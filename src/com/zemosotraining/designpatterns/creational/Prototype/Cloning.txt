@@ -1,0 +1,13 @@
+Clone: “create a copy of object”
+
+Different ways for creating copy object:
+Shallow, deep
+
+SHALLOW COPY:
+Whenever we use default implementation of clone method we get shallow copy of object
+It means it creates a new instance and copies all the fields of the object to that new instance where
+both are referencing to the same memory in heap memory.
+
+DEEP COPY:
+process of creating exactly the independent duplicate objects in the heap memory and
+manually assigning the values of the second object where values are supposed to be copied is called deep cloning.

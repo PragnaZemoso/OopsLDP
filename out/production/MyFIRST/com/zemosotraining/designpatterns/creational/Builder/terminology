@@ -1,0 +1,9 @@
+Fluent interface: a fluent interface is an object-oriented API whose design relies extensively on method chaining.
+
+There are two specific problems that we need to solve:
+
+1. Too many constructor arguments.
+     Adding more constructor parameters results in code that becomes harder to read.
+     If we had 10 different parameters, it would become very difficult to identify what's what in the constructor at a single glance.
+     To make it worse, some of those values might be optional, which means that we'll need to create a bunch of overloaded constructors to deal with all possible combinations, or we'll have to pass nulls to our constructor (ugly!).
+2. Incorrect object state.
